@@ -1,0 +1,18 @@
+// header styles 
+header {
+	background-color: $accent-c;
+	height: 100vh;
+	position: relative;
+	
+}
+.titanic {
+	font-size: 144px;
+	font-weight: 700;
+	font-family: 'Raleway', sans-serif;
+	opacity: 1;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #fff;
+}
