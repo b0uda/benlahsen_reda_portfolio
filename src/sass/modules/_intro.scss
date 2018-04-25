@@ -1,0 +1,20 @@
+// INTRODUCTION
+// SECTION
+
+main {
+	min-height: 100vh;
+	padding-top: 50px;
+	background-color: $main-c;
+	text-align: center;
+	font-size: 80px;
+}
+#intro {
+	width: 100%;
+	text-align: left;
+	word-break: break-word;
+	font-size: 9vw;
+	font-family: "ff-nuvo-sc-web-pro",sans-serif;
+	font-weight: bold;
+	
+	color: $accent-c;
+}
