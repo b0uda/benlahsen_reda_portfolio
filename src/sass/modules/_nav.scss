@@ -1,0 +1,55 @@
+
+.inner {
+	transform: translateX(0);
+	transition: transform .5s cubic-bezier(.55,.07,1,.02);
+	&.open {
+		transform: translateX(100%);
+	}
+}
+
+.fa-times {
+	position: absolute;
+	top: 35px;
+	right: 10%;
+	font-size: 36px;
+	color: #F06060;
+	cursor: pointer;
+	z-index: 9999;
+}
+.fa-bars {
+	font-size: 36px;
+	position: absolute;
+	top: 5%;
+	left: 5%;
+	cursor: pointer;
+}
+.fa-arrow-circle-up {
+	position: fixed;
+	bottom: 5%;
+	left: 4%;
+	cursor: pointer;
+	font-size: 36px;
+	z-index: 999;
+	color: #F06060;
+}
+.outer {
+	overflow: hidden;
+	position: relative;
+}
+
+.underline {
+	height: 2px;
+	width: 0;
+	margin: 0 auto;
+	background-color: $main-c;
+}
+.nav-link {
+	font-size: 46px;
+	letter-spacing: 2px;
+	display: block;
+	color: $main-c;
+	font-family: 'Inconsolata', ;
+	padding: 5px 0;
+	margin: 25px 0;
+	text-transform: uppercase;
+}
