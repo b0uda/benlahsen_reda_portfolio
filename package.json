@@ -37,6 +37,7 @@
     "lodash": "^4.17.4",
     "popper.js": "^1.12.9",
     "precss": "^2.0.0",
-    "susy": "^2"
+    "susy": "^2",
+    "waypoints": "^4.0.1"
   }
 }

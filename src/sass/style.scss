@@ -1,31 +1,42 @@
 // style.scss
 // ==============
 
-//Compass imports
-@import "compass";
-@import "compass/reset";
-@import "compass/css3/box-shadow";
-@import "compass/css3/text-shadow";
-@import 'compass/css3/filter';
-@import "compass/css3/flexbox";
-@import "compass/css3/transition";
+// //Compass imports
+// @import "compass";
+// @import "compass/reset";
+// @import "compass/css3/box-shadow";
+// @import "compass/css3/text-shadow";
+// @import 'compass/css3/filter';
+// @import "compass/css3/flexbox";
+// @import "compass/css3/transition";
 
 
 
-//External Libraries
-@import "susy";
-@import "breakpoint";
+// //External Libraries
+// @import "susy";
+// @import "breakpoint";
 
 // core patials
 @import 'variable';
-@import 'mixins';
 @import 'base';
-@import 'layout';
+@import 'animation';
+@import 'mediaquery';
+
 
 
 //Import Modules
 
+@import "modules/header";
+@import "modules/intro";
 @import "modules/nav";
+@import "modules/skills";
+@import "modules/portfolio";
 @import "modules/footer";
+
+
+
+
+
+
 
 

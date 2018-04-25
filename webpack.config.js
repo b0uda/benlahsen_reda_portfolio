@@ -145,7 +145,8 @@ module.exports = {
             new CleanWebpackPlugin([ 'dist' ]) ,
             new webpack.ProvidePlugin({
             	$: 'jquery' ,
-            	jQuery: 'jquery'
+				jQuery: 'jquery',
+				'window.jQuery': 'jquery'
             })
             ]
         };
