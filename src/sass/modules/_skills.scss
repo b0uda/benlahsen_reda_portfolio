@@ -1,0 +1,50 @@
+
+// SKILLS
+// SECTION
+
+.skills-sec {
+	position: relative;
+	background-color: #fff;
+}
+
+h2 {
+	color: $accent-c;
+	text-align: center;
+	margin: 100px 0;
+	font-size: 10vw;
+	font-weight: 700;
+	border-top: .5vw solid $accent-c;
+  border-bottom: .5vw solid $accent-c;
+  padding: 10px 0;
+}
+
+#skills {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	// transform: translateY(20px);
+	// transition: all 1s ease-in-out;
+	// transition-delay: .2s;
+	
+}
+
+.skill {
+	width: 32%;
+	height: 19vw;
+	padding: 15px;
+	opacity: 0;
+	transition: all 1s ease-in-out;
+	&.toR {
+		transform: translateX(-50px);
+	}
+	&.toL {
+		transform: translateX(50px);
+	}
+	&:nth-child(2) {
+		transform: translateY(-50px);
+	}
+	&:nth-child(8) {
+		transform: translateY(50px);
+	}
+	
+}
