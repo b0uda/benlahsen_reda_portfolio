@@ -1,5 +1,5 @@
 import "jquery";
-import "./../../node_modules/waypoints/lib/jquery.waypoints.min.js";
+import "./../..//node_modules/waypoints/lib/jquery.waypoints.min.js";
 
 $(document.body).ready(function() {
 	
@@ -153,7 +153,7 @@ $(document.body).ready(function() {
 	})
 	
 	arrow.click(function() {
-		$('body').animate({
+		$('html').animate({
 			scrollTop: 0
 		}, 1000);
 	});
